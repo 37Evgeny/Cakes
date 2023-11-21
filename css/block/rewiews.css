@@ -1,0 +1,118 @@
+.rewiews__container h4 {
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px;
+    /* 104% */
+}
+
+.rewiews__card {
+    display: flex;
+   
+}
+
+.rewiews__card__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 85px;
+}
+
+.rewiews__card__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.rewiews__card {
+    width: 934px;
+    height: 605px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    background: #FFF;
+    box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rewiews__card__span {
+    font-size: 100px;
+}
+
+.rewiews__card__left__title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    /* 97.5% */
+}
+
+.rewiews__card__text {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 39px;
+    /* 156% */
+}
+
+.rewiews__card__right img {
+    width: 312px;
+    height: 312px;
+    border-radius: 312px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rewiews__card__right__avatar__name {
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 39px; /* 111.429% */
+}
+
+.rewiews__card__right__avatar__state {
+    color: #545454;
+text-align: center;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 39px; /* 195% */
+}
+
+.rewiews__cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.rewiews__btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 129px;
+height: 129px;
+border-radius: 129px;
+background: #D11D65;
+filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.40));
+}
+
+.rewiews__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
