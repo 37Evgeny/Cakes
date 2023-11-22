@@ -78,3 +78,9 @@
 .why_us {
     margin-bottom: 250px;
 }
+
+@media(max-width:1024px){
+    .why_us__container {
+        margin-left: 50px;
+    }
+}

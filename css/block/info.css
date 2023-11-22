@@ -144,3 +144,15 @@
     margin-top: 20%;
     margin-left: -10%;
 }
+
+@media(max-width:1250px){
+    .info__container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .info__right {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+}

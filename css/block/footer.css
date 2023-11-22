@@ -1,0 +1,28 @@
+.footer__cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+
+.footer__info {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__info__company {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__cnt p {
+    color: #7C7C7C;
+text-align: center;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 250;
+line-height: 39px; /* 229.412% */
+}
