@@ -1,7 +1,7 @@
 .header__logo {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header__logo__text {
@@ -16,24 +16,30 @@
 
 .header__list ul {
     display: flex;
-   gap: 40px;
+    gap: 40px;
 }
 
 .header__logo__text {
     color: #000;
-text-align: center;
-font-family: Gilroy;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: 56.5px; /* 226% */
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56.5px;
+    /* 226% */
 }
 
 .header__list LI {
     color: #000;
-font-family: Gilroy;
-font-size: 25px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+@media(max-width:1024px){
+    .header {
+        justify-content: space-around;
+    }
 }

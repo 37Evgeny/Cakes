@@ -11,7 +11,7 @@
 
 .rewiews__card {
     display: flex;
-   
+
 }
 
 .rewiews__card__left {
@@ -75,22 +75,24 @@
 
 .rewiews__card__right__avatar__name {
     color: #000;
-text-align: center;
-font-family: Gilroy;
-font-size: 35px;
-font-style: normal;
-font-weight: 600;
-line-height: 39px; /* 111.429% */
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px;
+    /* 111.429% */
 }
 
 .rewiews__card__right__avatar__state {
     color: #545454;
-text-align: center;
-font-family: Gilroy;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 39px; /* 195% */
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    /* 195% */
 }
 
 .rewiews__cards {
@@ -99,20 +101,72 @@ line-height: 39px; /* 195% */
     justify-content: center;
 }
 
-.rewiews__btn{
+.rewiews__btn {
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 129px;
-height: 129px;
-border-radius: 129px;
-background: #D11D65;
-filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.40));
+    height: 129px;
+    border-radius: 129px;
+    background: #D11D65;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.40));
 }
 
-.rewiews__container{
+.rewiews__container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media(max-width:820px){
+
+    .rewiews__container h4{
+        font-size: 80px;
+    }
+
+    .rewiews__card{
+        width: 90%;
+        height: 90%;
+    }
+
+    .rewiews__card__right img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .rewiews__card__span {
+        font-size: 50px;
+    }
+
+    .rewiews__card__left__title {
+        font-size: 36px;
+    }
+
+    .rewiews__card__text {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 39px;
+        /* 156% */
+    }
+    .rewiews__btn {
+        width: 70px;
+        height: 70px;
+        border-radius: 75px;
+    }
+
+    .rewiews__card__right__avatar__name {
+        font-size: 20px;
+    }
+
+    .rewiews__card__right {
+        gap: 5px;
+    }
+
+    .rewiews__card__left {
+        margin: 0px;
+        padding: 50px;
+    }
+
 }
