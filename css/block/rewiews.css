@@ -170,3 +170,26 @@
     }
 
 }
+
+@media(max-width: 390px){
+    .rewiews__container h4 {
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 104% */
+    }
+
+    .rewiews__card__left {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .rewiews__card {
+        flex-wrap: wrap;
+    }
+
+    .rewiews__card__right {
+        width: 100%;
+    }
+}

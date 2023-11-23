@@ -19,10 +19,31 @@
 
 .footer__cnt p {
     color: #7C7C7C;
-text-align: center;
-font-family: Gilroy;
-font-size: 17px;
-font-style: normal;
-font-weight: 250;
-line-height: 39px; /* 229.412% */
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 39px;
+    /* 229.412% */
+}
+
+@media(max-width:390px) {
+    .footer__cnt {
+        margin-top: 50px;
+    }
+
+    .footer__info {
+        flex-direction: column;
+        align-items: start;
+        gap: 0px;
+    }
+
+    .footer__info__company {
+        flex-direction: column;
+        align-items: start;
+        gap: 0px;
+    }
+
+
 }

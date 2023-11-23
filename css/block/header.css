@@ -43,3 +43,9 @@
         justify-content: space-around;
     }
 }
+
+@media(max-width:390px){
+    .header__list {
+        display: none;
+    }
+}

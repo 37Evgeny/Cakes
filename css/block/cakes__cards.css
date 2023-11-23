@@ -80,3 +80,17 @@
 .cakes__cards__container button {
     margin: 100px 0px;
 }
+
+@media(max-width:390px){
+    .cakes__title {
+            width: 100%;
+            color: #000;
+            text-align: center;
+            font-family: Playfair Display;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 115.115%;
+            /* 115.5% */
+        }
+}
